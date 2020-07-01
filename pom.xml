@@ -64,4 +64,16 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+    <repository>
+        <id>localSnap</id>
+        <name>RepositoryProxyRel</name>
+        <url>http://54.89.94.42:8080</url>
+    </repository>
+    <snapshotRepository>
+        <id>MylocalSnap</id>
+        <name>RepositoryProxySnap</name>
+        <url>http://54.89.94.42:8080</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
